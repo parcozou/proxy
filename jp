@@ -1,0 +1,61 @@
+# Japan websites - starter list
+# Broad catch-all for .jp domains
+DOMAIN-SUFFIX,jp
+
+# Major Japanese portals / ecommerce
+DOMAIN-SUFFIX,yahoo.co.jp
+DOMAIN-SUFFIX,rakuten.co.jp
+DOMAIN-SUFFIX,rakuten-card.co.jp
+DOMAIN-SUFFIX,rakuten-bank.co.jp
+DOMAIN-SUFFIX,lohaco.jp
+DOMAIN-SUFFIX,zozo.jp
+DOMAIN-SUFFIX,zozotown.com
+DOMAIN-SUFFIX,mercari.com
+DOMAIN-SUFFIX,mercari.jp
+DOMAIN-SUFFIX,jp.mercari.com
+
+# Media / video / streaming
+DOMAIN-SUFFIX,abema.tv
+DOMAIN-SUFFIX,tver.jp
+DOMAIN-SUFFIX,nhk.jp
+DOMAIN-SUFFIX,nhk.or.jp
+DOMAIN-SUFFIX,nicovideo.jp
+DOMAIN-SUFFIX,nimg.jp
+DOMAIN-SUFFIX,dmm.com
+DOMAIN-SUFFIX,dmm.co.jp
+DOMAIN-SUFFIX,fanza.com
+DOMAIN-SUFFIX,u-next.jp
+DOMAIN-SUFFIX,hulu.jp
+DOMAIN-SUFFIX,paravi.jp
+DOMAIN-SUFFIX,wowow.co.jp
+
+# Community / content / reading
+DOMAIN-SUFFIX,pixiv.net
+DOMAIN-SUFFIX,pximg.net
+DOMAIN-SUFFIX,bookwalker.jp
+DOMAIN-SUFFIX,kakuyomu.jp
+DOMAIN-SUFFIX,syosetu.com
+DOMAIN-SUFFIX,narou.jp
+DOMAIN-SUFFIX,atwiki.jp
+
+# Shopping / lifestyle / travel
+DOMAIN-SUFFIX,biccamera.com
+DOMAIN-SUFFIX,yodobashi.com
+DOMAIN-SUFFIX,jalan.net
+DOMAIN-SUFFIX,ikyu.com
+DOMAIN-SUFFIX,hotpepper.jp
+DOMAIN-SUFFIX,gnavi.co.jp
+DOMAIN-SUFFIX,tabelog.com
+DOMAIN-SUFFIX,kakaku.com
+
+# Social / communication commonly used in Japan
+DOMAIN-SUFFIX,line.me
+DOMAIN-SUFFIX,lin.ee
+
+# Finance / local portals / common domestic services
+DOMAIN-SUFFIX,goo.ne.jp
+DOMAIN-SUFFIX,ocn.ne.jp
+DOMAIN-SUFFIX,biglobe.ne.jp
+DOMAIN-SUFFIX,nifty.com
+DOMAIN-SUFFIX,excite.co.jp
+DOMAIN-SUFFIX,livedoor.jp
