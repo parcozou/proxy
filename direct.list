@@ -1,0 +1,4 @@
+# Parco custom direct rules
+# These domains will use DIRECT
+
+DOMAIN-SUFFIX,compassedu.hk
