@@ -1,4 +1,4 @@
 # Parco custom proxy rules
 # These domains will use 🚀 节点选择
-
+DMAIN-SUFFIX,baidu.com
 DOMAIN-SUFFIX,photomath.net
