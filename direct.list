@@ -1,4 +1,4 @@
 # Parco custom direct rules
 # These domains will use DIRECT
-
+DOMAIN-SUFFIX,baidu.com
 DOMAIN-SUFFIX,compassedu.hk
