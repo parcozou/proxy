@@ -1,7 +1,170 @@
 # Parco custom proxy rules
-# These domains will use 🚀 节点选择
+# These rules use the Parco Proxy group in the client configurations.
 
 DOMAIN-SUFFIX,photomath.net
 
-# Muse AI domain from the 🤖 AI rule-set category-ai-!cn
+# Existing Meta AI rule, retained. Also covers Muse's agent/chat endpoints.
 DOMAIN-SUFFIX,meta.ai
+
+# Muse: verified from the public website, shipped JavaScript and CSP, 2026-09-25.
+# Suffix rules cover the apex and all current/future subdomains, including
+# auth.muse.ai, api.muse.ai, introducing.muse.ai and security.muse.ai.
+DOMAIN-SUFFIX,muse.ai
+
+# Related origins in Muse's shipped origin configuration; some require staff SSO.
+# Covers production.museai.com, voice.museai.com and hatch.ecto1.ai.
+DOMAIN-SUFFIX,museai.com
+DOMAIN-SUFFIX,ecto1.ai
+DOMAIN-SUFFIX,hatch.club
+
+# Generated content / isolated app hosts (some are conditional CSP dependencies).
+DOMAIN-SUFFIX,metaaiusercontent.com
+DOMAIN-SUFFIX,ecto1usercontent.com
+DOMAIN-SUFFIX,meta-agents-apps.workers.dev
+
+# Exact Meta OHTTP service hosts; do not match all Fastly domains.
+DOMAIN,meta-ohttp-config-prod.fastly-edge.com
+DOMAIN,meta-ohttp-relay-prod.fastly-edge.com
+
+# Shared sign-in, recovery and help hosts referenced by Muse.
+# These hosts may also carry traffic for other Meta products.
+DOMAIN-SUFFIX,auth.meta.com
+DOMAIN,www.facebook.com
+DOMAIN,web.facebook.com
+DOMAIN,www.instagram.com
+DOMAIN,www.meta.com
+DOMAIN,fb.okta.com
+
+# Shared media/CDN families allowed by Muse's CSP; not Muse-exclusive.
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,fbsbx.com
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,cdn.whatsapp.net
+DOMAIN-SUFFIX,oculuscdn.com
+
+# Optional checkout dependencies referenced by Muse's code / CSP.
+DOMAIN,js.stripe.com
+DOMAIN,api.stripe.com
+DOMAIN,hooks.stripe.com
+DOMAIN,m.stripe.network
+DOMAIN-SUFFIX,link.com
+
+# Optional fonts, diagnostics and analytics referenced by the public app.
+DOMAIN,fonts.googleapis.com
+DOMAIN,fonts.gstatic.com
+DOMAIN,o4509963614355457.ingest.us.sentry.io
+DOMAIN,connect.facebook.net
+DOMAIN,va.vercel-scripts.com
+
+# Observed IP fallback, 2026-09-25; explicitly enabled by the user.
+# Exact /32 and /128 addresses only. Shared hosting can match other services.
+# no-resolve skips an extra DNS lookup; it does NOT make shared IPs exclusive.
+# Addresses are a snapshot and can change. See muse-ip-observations.json.
+IP-CIDR,13.33.183.20/32,no-resolve
+IP-CIDR,13.33.183.37/32,no-resolve
+IP-CIDR,13.33.183.41/32,no-resolve
+IP-CIDR,13.33.183.59/32,no-resolve
+IP-CIDR,13.226.69.5/32,no-resolve
+IP-CIDR,13.226.69.9/32,no-resolve
+IP-CIDR,13.226.69.66/32,no-resolve
+IP-CIDR,13.226.69.71/32,no-resolve
+IP-CIDR,13.248.169.48/32,no-resolve
+IP-CIDR,18.65.14.17/32,no-resolve
+IP-CIDR,18.65.14.23/32,no-resolve
+IP-CIDR,18.65.14.117/32,no-resolve
+IP-CIDR,18.65.14.124/32,no-resolve
+IP-CIDR,34.160.81.0/32,no-resolve
+IP-CIDR,35.71.178.224/32,no-resolve
+IP-CIDR,52.223.45.111/32,no-resolve
+IP-CIDR,57.144.64.1/32,no-resolve
+IP-CIDR,57.144.64.34/32,no-resolve
+IP-CIDR,57.144.64.141/32,no-resolve
+IP-CIDR,57.144.98.1/32,no-resolve
+IP-CIDR,57.144.98.128/32,no-resolve
+IP-CIDR,57.144.98.141/32,no-resolve
+IP-CIDR,57.144.98.145/32,no-resolve
+IP-CIDR,57.145.12.128/32,no-resolve
+IP-CIDR,57.145.12.131/32,no-resolve
+IP-CIDR,57.145.12.141/32,no-resolve
+IP-CIDR,64.239.109.1/32,no-resolve
+IP-CIDR,64.239.109.65/32,no-resolve
+IP-CIDR,64.239.109.129/32,no-resolve
+IP-CIDR,64.239.109.193/32,no-resolve
+IP-CIDR,64.239.123.1/32,no-resolve
+IP-CIDR,64.239.123.65/32,no-resolve
+IP-CIDR,64.239.123.129/32,no-resolve
+IP-CIDR,64.239.123.193/32,no-resolve
+IP-CIDR,76.223.54.146/32,no-resolve
+IP-CIDR,108.177.97.95/32,no-resolve
+IP-CIDR,142.251.179.94/32,no-resolve
+IP-CIDR,151.101.0.176/32,no-resolve
+IP-CIDR,151.101.1.91/32,no-resolve
+IP-CIDR,151.101.64.176/32,no-resolve
+IP-CIDR,151.101.65.91/32,no-resolve
+IP-CIDR,151.101.128.176/32,no-resolve
+IP-CIDR,151.101.129.91/32,no-resolve
+IP-CIDR,151.101.192.176/32,no-resolve
+IP-CIDR,151.101.193.91/32,no-resolve
+IP-CIDR,157.240.211.1/32,no-resolve
+IP-CIDR,157.240.211.4/32,no-resolve
+IP-CIDR,157.240.211.13/32,no-resolve
+IP-CIDR,157.240.211.22/32,no-resolve
+IP-CIDR,157.240.211.35/32,no-resolve
+IP-CIDR,157.240.211.174/32,no-resolve
+IP-CIDR,198.137.150.21/32,no-resolve
+IP-CIDR,198.137.150.41/32,no-resolve
+IP-CIDR,198.137.150.111/32,no-resolve
+IP-CIDR,198.137.150.161/32,no-resolve
+IP-CIDR,198.137.150.175/32,no-resolve
+IP-CIDR,198.137.150.231/32,no-resolve
+IP-CIDR,198.202.176.21/32,no-resolve
+IP-CIDR,198.202.176.41/32,no-resolve
+IP-CIDR,198.202.176.111/32,no-resolve
+IP-CIDR,198.202.176.161/32,no-resolve
+IP-CIDR,198.202.176.175/32,no-resolve
+IP-CIDR,198.202.176.231/32,no-resolve
+IP-CIDR,203.208.49.97/32,no-resolve
+IP-CIDR,203.208.49.98/32,no-resolve
+IP-CIDR6,2401:3800:4001:808::1001/128,no-resolve
+IP-CIDR6,2401:3800:4001:808::1002/128,no-resolve
+IP-CIDR6,2404:6800:4005:805::2003/128,no-resolve
+IP-CIDR6,2404:6800:4008:c06::5f/128,no-resolve
+IP-CIDR6,2600:1901:0:5e8a::/128,no-resolve
+IP-CIDR6,2600:9000:2079:2a00:19:7d10:bd80:93a1/128,no-resolve
+IP-CIDR6,2600:9000:2079:3800:19:7d10:bd80:93a1/128,no-resolve
+IP-CIDR6,2600:9000:2079:6a00:19:7d10:bd80:93a1/128,no-resolve
+IP-CIDR6,2600:9000:2079:7000:19:7d10:bd80:93a1/128,no-resolve
+IP-CIDR6,2600:9000:2079:bc00:19:7d10:bd80:93a1/128,no-resolve
+IP-CIDR6,2600:9000:2079:c600:19:7d10:bd80:93a1/128,no-resolve
+IP-CIDR6,2600:9000:2079:e600:19:7d10:bd80:93a1/128,no-resolve
+IP-CIDR6,2600:9000:2079:f600:19:7d10:bd80:93a1/128,no-resolve
+IP-CIDR6,2600:9000:2939:4400:19:7d10:bd80:93a1/128,no-resolve
+IP-CIDR6,2600:9000:2939:4c00:19:7d10:bd80:93a1/128,no-resolve
+IP-CIDR6,2600:9000:2939:4e00:19:7d10:bd80:93a1/128,no-resolve
+IP-CIDR6,2600:9000:2939:7e00:19:7d10:bd80:93a1/128,no-resolve
+IP-CIDR6,2600:9000:2939:8600:19:7d10:bd80:93a1/128,no-resolve
+IP-CIDR6,2600:9000:2939:ca00:19:7d10:bd80:93a1/128,no-resolve
+IP-CIDR6,2600:9000:2939:e000:19:7d10:bd80:93a1/128,no-resolve
+IP-CIDR6,2600:9000:2939:f400:19:7d10:bd80:93a1/128,no-resolve
+IP-CIDR6,2a03:2880:f05e:100:face:b00c:0:2/128,no-resolve
+IP-CIDR6,2a03:2880:f05e:103:face:b00c:0:467/128,no-resolve
+IP-CIDR6,2a03:2880:f05e:10c:face:b00c:0:3/128,no-resolve
+IP-CIDR6,2a03:2880:f05e:115:face:b00c:0:6206/128,no-resolve
+IP-CIDR6,2a03:2880:f15e:182:face:b00c:0:25de/128,no-resolve
+IP-CIDR6,2a03:2880:f25e:1e4:face:b00c:0:4420/128,no-resolve
+IP-CIDR6,2a03:2880:f31a:80:face:b00c:0:3/128,no-resolve
+IP-CIDR6,2a03:2880:f31a:83:face:b00c:0:467/128,no-resolve
+IP-CIDR6,2a03:2880:f31a:8d:face:b00c:0:2/128,no-resolve
+IP-CIDR6,2a03:2880:f328:1:face:b00c:0:25de/128,no-resolve
+IP-CIDR6,2a03:2880:f328:80:face:b00c:0:3/128,no-resolve
+IP-CIDR6,2a03:2880:f328:8d:face:b00c:0:2/128,no-resolve
+IP-CIDR6,2a03:2880:f386:1:face:b00c:0:25de/128,no-resolve
+IP-CIDR6,2a03:2880:f386:22:face:b00c:0:4420/128,no-resolve
+IP-CIDR6,2a03:2880:f386:80:face:b00c:0:3/128,no-resolve
+IP-CIDR6,2a03:2880:f386:8d:face:b00c:0:2/128,no-resolve
+IP-CIDR6,2a04:4e42::347/128,no-resolve
+IP-CIDR6,2a04:4e42:200::347/128,no-resolve
+IP-CIDR6,2a04:4e42:400::347/128,no-resolve
+IP-CIDR6,2a04:4e42:600::347/128,no-resolve
+
+# Sources and coverage: muse-routing-notes.md

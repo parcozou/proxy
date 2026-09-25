@@ -1,0 +1,3527 @@
+{
+  "observed_at": "2026-09-25T03:27:42.624394+00:00",
+  "scope": "Public DNS snapshot of Muse-related core, legacy, and shared dependency hosts. Not a complete global address inventory.",
+  "shared_ip_warning": "These addresses are shared with Meta, Vercel, Fastly, Stripe, Google, Sentry or other services. Single-address routing can also match unrelated traffic. User explicitly opted in.",
+  "enabled_in_proxy_list": true,
+  "ipv4_count": 65,
+  "ipv6_count": 41,
+  "ip_sources": {
+    "13.33.183.20": [
+      "m.stripe.network"
+    ],
+    "13.33.183.37": [
+      "m.stripe.network"
+    ],
+    "13.33.183.41": [
+      "m.stripe.network"
+    ],
+    "13.33.183.59": [
+      "m.stripe.network"
+    ],
+    "13.226.69.5": [
+      "js.stripe.com"
+    ],
+    "13.226.69.9": [
+      "js.stripe.com"
+    ],
+    "13.226.69.66": [
+      "js.stripe.com"
+    ],
+    "13.226.69.71": [
+      "js.stripe.com"
+    ],
+    "13.248.169.48": [
+      "www.hatch.club"
+    ],
+    "18.65.14.17": [
+      "m.stripe.network"
+    ],
+    "18.65.14.23": [
+      "m.stripe.network"
+    ],
+    "18.65.14.117": [
+      "m.stripe.network"
+    ],
+    "18.65.14.124": [
+      "m.stripe.network"
+    ],
+    "34.160.81.0": [
+      "o4509963614355457.ingest.us.sentry.io"
+    ],
+    "35.71.178.224": [
+      "fb.okta.com"
+    ],
+    "52.223.45.111": [
+      "fb.okta.com"
+    ],
+    "57.144.64.1": [
+      "fbsbx.com"
+    ],
+    "57.144.64.34": [
+      "www.instagram.com"
+    ],
+    "57.144.64.141": [
+      "edge-chat.meta.ai",
+      "introducing.muse.ai",
+      "security.muse.ai",
+      "web.facebook.com"
+    ],
+    "57.144.98.1": [
+      "fbcdn.net",
+      "www.facebook.com"
+    ],
+    "57.144.98.128": [
+      "static.xx.fbcdn.net"
+    ],
+    "57.144.98.141": [
+      "auth.meta.com",
+      "muse.ai",
+      "www.muse.ai"
+    ],
+    "57.144.98.145": [
+      "gateway.meta.ai"
+    ],
+    "57.145.12.128": [
+      "connect.facebook.net"
+    ],
+    "57.145.12.131": [
+      "shortwave.meta.ai"
+    ],
+    "57.145.12.141": [
+      "agent.meta.ai",
+      "api.muse.ai",
+      "auth.meta.com",
+      "auth.muse.ai"
+    ],
+    "64.239.109.1": [
+      "hatch.club",
+      "hatch.ecto1.ai",
+      "museai.com"
+    ],
+    "64.239.109.65": [
+      "ecto1usercontent.com",
+      "museai.com",
+      "production.museai.com"
+    ],
+    "64.239.109.129": [
+      "ecto1.ai",
+      "hatch.ecto1.ai",
+      "production.museai.com",
+      "va.vercel-scripts.com",
+      "voice.museai.com"
+    ],
+    "64.239.109.193": [
+      "museai.com",
+      "production.museai.com"
+    ],
+    "64.239.123.1": [
+      "hatch.ecto1.ai",
+      "museai.com",
+      "voice.museai.com"
+    ],
+    "64.239.123.65": [
+      "hatch.ecto1.ai",
+      "va.vercel-scripts.com"
+    ],
+    "64.239.123.129": [
+      "ecto1.ai",
+      "ecto1usercontent.com",
+      "va.vercel-scripts.com",
+      "voice.museai.com"
+    ],
+    "64.239.123.193": [
+      "ecto1usercontent.com",
+      "production.museai.com"
+    ],
+    "76.223.54.146": [
+      "www.hatch.club"
+    ],
+    "108.177.97.95": [
+      "fonts.googleapis.com"
+    ],
+    "142.251.179.94": [
+      "fonts.gstatic.com"
+    ],
+    "151.101.0.176": [
+      "js.stripe.com"
+    ],
+    "151.101.1.91": [
+      "meta-ohttp-config-prod.fastly-edge.com",
+      "meta-ohttp-relay-prod.fastly-edge.com"
+    ],
+    "151.101.64.176": [
+      "js.stripe.com"
+    ],
+    "151.101.65.91": [
+      "meta-ohttp-config-prod.fastly-edge.com",
+      "meta-ohttp-relay-prod.fastly-edge.com"
+    ],
+    "151.101.128.176": [
+      "js.stripe.com"
+    ],
+    "151.101.129.91": [
+      "meta-ohttp-config-prod.fastly-edge.com",
+      "meta-ohttp-relay-prod.fastly-edge.com"
+    ],
+    "151.101.192.176": [
+      "js.stripe.com"
+    ],
+    "151.101.193.91": [
+      "meta-ohttp-config-prod.fastly-edge.com",
+      "meta-ohttp-relay-prod.fastly-edge.com"
+    ],
+    "157.240.211.1": [
+      "agent.meta.ai",
+      "api.muse.ai",
+      "auth.meta.com",
+      "auth.muse.ai",
+      "edge-chat.meta.ai",
+      "introducing.muse.ai",
+      "meta.ai",
+      "muse.ai",
+      "security.muse.ai",
+      "web.facebook.com",
+      "www.meta.com",
+      "www.muse.ai"
+    ],
+    "157.240.211.4": [
+      "shortwave.meta.ai"
+    ],
+    "157.240.211.13": [
+      "connect.facebook.net",
+      "static.xx.fbcdn.net"
+    ],
+    "157.240.211.22": [
+      "gateway.meta.ai"
+    ],
+    "157.240.211.35": [
+      "fbcdn.net",
+      "fbsbx.com",
+      "www.facebook.com"
+    ],
+    "157.240.211.174": [
+      "www.instagram.com"
+    ],
+    "198.137.150.21": [
+      "api.stripe.com"
+    ],
+    "198.137.150.41": [
+      "link.com"
+    ],
+    "198.137.150.111": [
+      "hooks.stripe.com"
+    ],
+    "198.137.150.161": [
+      "hooks.stripe.com"
+    ],
+    "198.137.150.175": [
+      "api.stripe.com"
+    ],
+    "198.137.150.231": [
+      "link.com"
+    ],
+    "198.202.176.21": [
+      "api.stripe.com"
+    ],
+    "198.202.176.41": [
+      "link.com"
+    ],
+    "198.202.176.111": [
+      "hooks.stripe.com"
+    ],
+    "198.202.176.161": [
+      "hooks.stripe.com"
+    ],
+    "198.202.176.175": [
+      "api.stripe.com"
+    ],
+    "198.202.176.231": [
+      "link.com"
+    ],
+    "203.208.49.97": [
+      "fonts.googleapis.com"
+    ],
+    "203.208.49.98": [
+      "fonts.gstatic.com"
+    ],
+    "2401:3800:4001:808::1001": [
+      "fonts.googleapis.com"
+    ],
+    "2401:3800:4001:808::1002": [
+      "fonts.gstatic.com"
+    ],
+    "2404:6800:4005:805::2003": [
+      "fonts.gstatic.com"
+    ],
+    "2404:6800:4008:c06::5f": [
+      "fonts.googleapis.com"
+    ],
+    "2600:1901:0:5e8a::": [
+      "o4509963614355457.ingest.us.sentry.io"
+    ],
+    "2600:9000:2079:2a00:19:7d10:bd80:93a1": [
+      "m.stripe.network"
+    ],
+    "2600:9000:2079:3800:19:7d10:bd80:93a1": [
+      "m.stripe.network"
+    ],
+    "2600:9000:2079:6a00:19:7d10:bd80:93a1": [
+      "m.stripe.network"
+    ],
+    "2600:9000:2079:7000:19:7d10:bd80:93a1": [
+      "m.stripe.network"
+    ],
+    "2600:9000:2079:bc00:19:7d10:bd80:93a1": [
+      "m.stripe.network"
+    ],
+    "2600:9000:2079:c600:19:7d10:bd80:93a1": [
+      "m.stripe.network"
+    ],
+    "2600:9000:2079:e600:19:7d10:bd80:93a1": [
+      "m.stripe.network"
+    ],
+    "2600:9000:2079:f600:19:7d10:bd80:93a1": [
+      "m.stripe.network"
+    ],
+    "2600:9000:2939:4400:19:7d10:bd80:93a1": [
+      "m.stripe.network"
+    ],
+    "2600:9000:2939:4c00:19:7d10:bd80:93a1": [
+      "m.stripe.network"
+    ],
+    "2600:9000:2939:4e00:19:7d10:bd80:93a1": [
+      "m.stripe.network"
+    ],
+    "2600:9000:2939:7e00:19:7d10:bd80:93a1": [
+      "m.stripe.network"
+    ],
+    "2600:9000:2939:8600:19:7d10:bd80:93a1": [
+      "m.stripe.network"
+    ],
+    "2600:9000:2939:ca00:19:7d10:bd80:93a1": [
+      "m.stripe.network"
+    ],
+    "2600:9000:2939:e000:19:7d10:bd80:93a1": [
+      "m.stripe.network"
+    ],
+    "2600:9000:2939:f400:19:7d10:bd80:93a1": [
+      "m.stripe.network"
+    ],
+    "2a03:2880:f05e:100:face:b00c:0:2": [
+      "agent.meta.ai",
+      "api.muse.ai",
+      "auth.meta.com",
+      "auth.muse.ai",
+      "edge-chat.meta.ai",
+      "introducing.muse.ai",
+      "meta.ai",
+      "muse.ai",
+      "security.muse.ai",
+      "web.facebook.com",
+      "www.meta.com",
+      "www.muse.ai"
+    ],
+    "2a03:2880:f05e:103:face:b00c:0:467": [
+      "shortwave.meta.ai"
+    ],
+    "2a03:2880:f05e:10c:face:b00c:0:3": [
+      "connect.facebook.net",
+      "static.xx.fbcdn.net"
+    ],
+    "2a03:2880:f05e:115:face:b00c:0:6206": [
+      "gateway.meta.ai"
+    ],
+    "2a03:2880:f15e:182:face:b00c:0:25de": [
+      "fbcdn.net",
+      "fbsbx.com",
+      "www.facebook.com"
+    ],
+    "2a03:2880:f25e:1e4:face:b00c:0:4420": [
+      "www.instagram.com"
+    ],
+    "2a03:2880:f31a:80:face:b00c:0:3": [
+      "connect.facebook.net"
+    ],
+    "2a03:2880:f31a:83:face:b00c:0:467": [
+      "shortwave.meta.ai"
+    ],
+    "2a03:2880:f31a:8d:face:b00c:0:2": [
+      "agent.meta.ai",
+      "auth.meta.com",
+      "meta.ai",
+      "security.muse.ai",
+      "www.meta.com"
+    ],
+    "2a03:2880:f328:1:face:b00c:0:25de": [
+      "fbsbx.com",
+      "www.facebook.com"
+    ],
+    "2a03:2880:f328:80:face:b00c:0:3": [
+      "static.xx.fbcdn.net"
+    ],
+    "2a03:2880:f328:8d:face:b00c:0:2": [
+      "api.muse.ai",
+      "muse.ai",
+      "www.muse.ai"
+    ],
+    "2a03:2880:f386:1:face:b00c:0:25de": [
+      "fbcdn.net"
+    ],
+    "2a03:2880:f386:22:face:b00c:0:4420": [
+      "www.instagram.com"
+    ],
+    "2a03:2880:f386:80:face:b00c:0:3": [
+      "static.xx.fbcdn.net"
+    ],
+    "2a03:2880:f386:8d:face:b00c:0:2": [
+      "auth.meta.com",
+      "auth.muse.ai",
+      "edge-chat.meta.ai"
+    ],
+    "2a04:4e42::347": [
+      "meta-ohttp-config-prod.fastly-edge.com",
+      "meta-ohttp-relay-prod.fastly-edge.com"
+    ],
+    "2a04:4e42:200::347": [
+      "meta-ohttp-config-prod.fastly-edge.com",
+      "meta-ohttp-relay-prod.fastly-edge.com"
+    ],
+    "2a04:4e42:400::347": [
+      "meta-ohttp-config-prod.fastly-edge.com",
+      "meta-ohttp-relay-prod.fastly-edge.com"
+    ],
+    "2a04:4e42:600::347": [
+      "meta-ohttp-config-prod.fastly-edge.com",
+      "meta-ohttp-relay-prod.fastly-edge.com"
+    ]
+  },
+  "observations": [
+    {
+      "name": "muse.ai",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 1,
+          "value": "157.240.211.1",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "muse.ai",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 1,
+          "value": "57.144.98.141",
+          "ttl_seconds": 27
+        }
+      ]
+    },
+    {
+      "name": "muse.ai",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 28,
+          "value": "2a03:2880:f05e:100:face:b00c:0:2",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "muse.ai",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 28,
+          "value": "2a03:2880:f328:8d:face:b00c:0:2",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "auth.muse.ai",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star.c10r.facebook.com.",
+          "ttl_seconds": 36
+        },
+        {
+          "type": 1,
+          "value": "157.240.211.1",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "auth.muse.ai",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star.c10r.facebook.com.",
+          "ttl_seconds": 24
+        },
+        {
+          "type": 1,
+          "value": "57.145.12.141",
+          "ttl_seconds": 50
+        }
+      ]
+    },
+    {
+      "name": "auth.muse.ai",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star.c10r.facebook.com.",
+          "ttl_seconds": 300
+        },
+        {
+          "type": 28,
+          "value": "2a03:2880:f05e:100:face:b00c:0:2",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "auth.muse.ai",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star.c10r.facebook.com.",
+          "ttl_seconds": 300
+        },
+        {
+          "type": 28,
+          "value": "2a03:2880:f386:8d:face:b00c:0:2",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "security.muse.ai",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star.c10r.facebook.com.",
+          "ttl_seconds": 300
+        },
+        {
+          "type": 1,
+          "value": "157.240.211.1",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "security.muse.ai",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star.c10r.facebook.com.",
+          "ttl_seconds": 300
+        },
+        {
+          "type": 1,
+          "value": "57.144.64.141",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "security.muse.ai",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star.c10r.facebook.com.",
+          "ttl_seconds": 300
+        },
+        {
+          "type": 28,
+          "value": "2a03:2880:f05e:100:face:b00c:0:2",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "security.muse.ai",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star.c10r.facebook.com.",
+          "ttl_seconds": 300
+        },
+        {
+          "type": 28,
+          "value": "2a03:2880:f31a:8d:face:b00c:0:2",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "introducing.muse.ai",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star.c10r.facebook.com.",
+          "ttl_seconds": 83
+        },
+        {
+          "type": 1,
+          "value": "157.240.211.1",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "introducing.muse.ai",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star.c10r.facebook.com.",
+          "ttl_seconds": 300
+        },
+        {
+          "type": 1,
+          "value": "57.144.64.141",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "introducing.muse.ai",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star.c10r.facebook.com.",
+          "ttl_seconds": 86
+        },
+        {
+          "type": 28,
+          "value": "2a03:2880:f05e:100:face:b00c:0:2",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "introducing.muse.ai",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star.c10r.facebook.com.",
+          "ttl_seconds": 300
+        },
+        {
+          "type": 28,
+          "value": "2a03:2880:f05e:100:face:b00c:0:2",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "www.muse.ai",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star.c10r.facebook.com.",
+          "ttl_seconds": 300
+        },
+        {
+          "type": 1,
+          "value": "157.240.211.1",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "www.muse.ai",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star.c10r.facebook.com.",
+          "ttl_seconds": 300
+        },
+        {
+          "type": 1,
+          "value": "57.144.98.141",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "www.muse.ai",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star.c10r.facebook.com.",
+          "ttl_seconds": 300
+        },
+        {
+          "type": 28,
+          "value": "2a03:2880:f05e:100:face:b00c:0:2",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "www.muse.ai",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star.c10r.facebook.com.",
+          "ttl_seconds": 300
+        },
+        {
+          "type": 28,
+          "value": "2a03:2880:f328:8d:face:b00c:0:2",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "preview.muse.ai",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "preview.muse.ai",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "preview.muse.ai",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "preview.muse.ai",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "at-od.muse.ai",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 3,
+      "answers": []
+    },
+    {
+      "name": "at-od.muse.ai",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 3,
+      "answers": []
+    },
+    {
+      "name": "at-od.muse.ai",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 3,
+      "answers": []
+    },
+    {
+      "name": "at-od.muse.ai",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 3,
+      "answers": []
+    },
+    {
+      "name": "notes.muse.ai",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 3,
+      "answers": []
+    },
+    {
+      "name": "notes.muse.ai",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 3,
+      "answers": []
+    },
+    {
+      "name": "notes.muse.ai",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 3,
+      "answers": []
+    },
+    {
+      "name": "notes.muse.ai",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 3,
+      "answers": []
+    },
+    {
+      "name": "meta.ai",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 1,
+          "value": "157.240.211.1",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "meta.ai",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 1,
+          "value": "157.240.211.1",
+          "ttl_seconds": 19
+        }
+      ]
+    },
+    {
+      "name": "meta.ai",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 28,
+          "value": "2a03:2880:f05e:100:face:b00c:0:2",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "meta.ai",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 28,
+          "value": "2a03:2880:f31a:8d:face:b00c:0:2",
+          "ttl_seconds": 42
+        }
+      ]
+    },
+    {
+      "name": "agent.meta.ai",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star.c10r.facebook.com.",
+          "ttl_seconds": 236
+        },
+        {
+          "type": 1,
+          "value": "157.240.211.1",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "agent.meta.ai",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star.c10r.facebook.com.",
+          "ttl_seconds": 300
+        },
+        {
+          "type": 1,
+          "value": "57.145.12.141",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "agent.meta.ai",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star.c10r.facebook.com.",
+          "ttl_seconds": 275
+        },
+        {
+          "type": 28,
+          "value": "2a03:2880:f05e:100:face:b00c:0:2",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "agent.meta.ai",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star.c10r.facebook.com.",
+          "ttl_seconds": 300
+        },
+        {
+          "type": 28,
+          "value": "2a03:2880:f31a:8d:face:b00c:0:2",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "gateway.meta.ai",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "dgw.c10r.facebook.com.",
+          "ttl_seconds": 2361
+        },
+        {
+          "type": 1,
+          "value": "157.240.211.22",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "gateway.meta.ai",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "dgw.c10r.facebook.com.",
+          "ttl_seconds": 3539
+        },
+        {
+          "type": 1,
+          "value": "57.144.98.145",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "gateway.meta.ai",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "dgw.c10r.facebook.com.",
+          "ttl_seconds": 2361
+        },
+        {
+          "type": 28,
+          "value": "2a03:2880:f05e:115:face:b00c:0:6206",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "gateway.meta.ai",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "dgw.c10r.facebook.com.",
+          "ttl_seconds": 3507
+        },
+        {
+          "type": 28,
+          "value": "2a03:2880:f05e:115:face:b00c:0:6206",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "edge-chat.meta.ai",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star.c10r.facebook.com.",
+          "ttl_seconds": 7200
+        },
+        {
+          "type": 1,
+          "value": "157.240.211.1",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "edge-chat.meta.ai",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star.c10r.facebook.com.",
+          "ttl_seconds": 7200
+        },
+        {
+          "type": 1,
+          "value": "57.144.64.141",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "edge-chat.meta.ai",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star.c10r.facebook.com.",
+          "ttl_seconds": 7200
+        },
+        {
+          "type": 28,
+          "value": "2a03:2880:f05e:100:face:b00c:0:2",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "edge-chat.meta.ai",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star.c10r.facebook.com.",
+          "ttl_seconds": 7200
+        },
+        {
+          "type": 28,
+          "value": "2a03:2880:f386:8d:face:b00c:0:2",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "edge-chat-latest.meta.ai",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 3,
+      "answers": []
+    },
+    {
+      "name": "edge-chat-latest.meta.ai",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 3,
+      "answers": []
+    },
+    {
+      "name": "edge-chat-latest.meta.ai",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 3,
+      "answers": []
+    },
+    {
+      "name": "edge-chat-latest.meta.ai",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 3,
+      "answers": []
+    },
+    {
+      "name": "shortwave.meta.ai",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "shortwave.c10r.facebook.com.",
+          "ttl_seconds": 6789
+        },
+        {
+          "type": 1,
+          "value": "157.240.211.4",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "shortwave.meta.ai",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "shortwave.c10r.facebook.com.",
+          "ttl_seconds": 7200
+        },
+        {
+          "type": 1,
+          "value": "57.145.12.131",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "shortwave.meta.ai",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "shortwave.c10r.facebook.com.",
+          "ttl_seconds": 6460
+        },
+        {
+          "type": 28,
+          "value": "2a03:2880:f05e:103:face:b00c:0:467",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "shortwave.meta.ai",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "shortwave.c10r.facebook.com.",
+          "ttl_seconds": 7200
+        },
+        {
+          "type": 28,
+          "value": "2a03:2880:f31a:83:face:b00c:0:467",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "auth.meta.com",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star.c10r.facebook.com.",
+          "ttl_seconds": 5609
+        },
+        {
+          "type": 1,
+          "value": "157.240.211.1",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "auth.meta.com",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star.c10r.facebook.com.",
+          "ttl_seconds": 5141
+        },
+        {
+          "type": 1,
+          "value": "57.144.98.141",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "auth.meta.com",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star.c10r.facebook.com.",
+          "ttl_seconds": 5609
+        },
+        {
+          "type": 28,
+          "value": "2a03:2880:f05e:100:face:b00c:0:2",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "auth.meta.com",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star.c10r.facebook.com.",
+          "ttl_seconds": 3077
+        },
+        {
+          "type": 28,
+          "value": "2a03:2880:f386:8d:face:b00c:0:2",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "www.facebook.com",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star-mini.c10r.facebook.com.",
+          "ttl_seconds": 3566
+        },
+        {
+          "type": 1,
+          "value": "57.144.98.1",
+          "ttl_seconds": 26
+        }
+      ]
+    },
+    {
+      "name": "www.facebook.com",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star-mini.c10r.facebook.com.",
+          "ttl_seconds": 3587
+        },
+        {
+          "type": 1,
+          "value": "157.240.211.35",
+          "ttl_seconds": 47
+        }
+      ]
+    },
+    {
+      "name": "www.facebook.com",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star-mini.c10r.facebook.com.",
+          "ttl_seconds": 1156
+        },
+        {
+          "type": 28,
+          "value": "2a03:2880:f15e:182:face:b00c:0:25de",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "www.facebook.com",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star-mini.c10r.facebook.com.",
+          "ttl_seconds": 3588
+        },
+        {
+          "type": 28,
+          "value": "2a03:2880:f328:1:face:b00c:0:25de",
+          "ttl_seconds": 48
+        }
+      ]
+    },
+    {
+      "name": "static.xx.fbcdn.net",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "scontent.xx.fbcdn.net.",
+          "ttl_seconds": 3600
+        },
+        {
+          "type": 1,
+          "value": "157.240.211.13",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "static.xx.fbcdn.net",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "scontent.xx.fbcdn.net.",
+          "ttl_seconds": 3585
+        },
+        {
+          "type": 1,
+          "value": "157.240.211.13",
+          "ttl_seconds": 45
+        }
+      ]
+    },
+    {
+      "name": "static.xx.fbcdn.net",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "scontent.xx.fbcdn.net.",
+          "ttl_seconds": 3600
+        },
+        {
+          "type": 28,
+          "value": "2a03:2880:f05e:10c:face:b00c:0:3",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "static.xx.fbcdn.net",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "scontent.xx.fbcdn.net.",
+          "ttl_seconds": 3541
+        },
+        {
+          "type": 28,
+          "value": "2a03:2880:f328:80:face:b00c:0:3",
+          "ttl_seconds": 1
+        }
+      ]
+    },
+    {
+      "name": "metaaiusercontent.com",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "metaaiusercontent.com",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "metaaiusercontent.com",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "metaaiusercontent.com",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "ecto1usercontent.com",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 1,
+          "value": "64.239.109.65",
+          "ttl_seconds": 1800
+        },
+        {
+          "type": 1,
+          "value": "64.239.123.193",
+          "ttl_seconds": 1800
+        }
+      ]
+    },
+    {
+      "name": "ecto1usercontent.com",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 1,
+          "value": "64.239.123.129",
+          "ttl_seconds": 1800
+        },
+        {
+          "type": 1,
+          "value": "64.239.123.193",
+          "ttl_seconds": 1800
+        }
+      ]
+    },
+    {
+      "name": "ecto1usercontent.com",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "ecto1usercontent.com",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "meta-agents-apps.workers.dev",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "meta-agents-apps.workers.dev",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "meta-agents-apps.workers.dev",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "meta-agents-apps.workers.dev",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "api.muse.ai",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star.c10r.facebook.com.",
+          "ttl_seconds": 201
+        },
+        {
+          "type": 1,
+          "value": "157.240.211.1",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "api.muse.ai",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star.c10r.facebook.com.",
+          "ttl_seconds": 300
+        },
+        {
+          "type": 1,
+          "value": "57.145.12.141",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "api.muse.ai",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star.c10r.facebook.com.",
+          "ttl_seconds": 216
+        },
+        {
+          "type": 28,
+          "value": "2a03:2880:f05e:100:face:b00c:0:2",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "api.muse.ai",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star.c10r.facebook.com.",
+          "ttl_seconds": 300
+        },
+        {
+          "type": 28,
+          "value": "2a03:2880:f328:8d:face:b00c:0:2",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "production.museai.com",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 1,
+          "value": "64.239.109.193",
+          "ttl_seconds": 1800
+        },
+        {
+          "type": 1,
+          "value": "64.239.123.193",
+          "ttl_seconds": 1800
+        }
+      ]
+    },
+    {
+      "name": "production.museai.com",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 1,
+          "value": "64.239.109.129",
+          "ttl_seconds": 1800
+        },
+        {
+          "type": 1,
+          "value": "64.239.109.65",
+          "ttl_seconds": 1800
+        }
+      ]
+    },
+    {
+      "name": "production.museai.com",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "production.museai.com",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "voice.museai.com",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 1,
+          "value": "64.239.123.129",
+          "ttl_seconds": 1800
+        },
+        {
+          "type": 1,
+          "value": "64.239.109.129",
+          "ttl_seconds": 1800
+        }
+      ]
+    },
+    {
+      "name": "voice.museai.com",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 1,
+          "value": "64.239.109.129",
+          "ttl_seconds": 1800
+        },
+        {
+          "type": 1,
+          "value": "64.239.123.1",
+          "ttl_seconds": 1800
+        }
+      ]
+    },
+    {
+      "name": "voice.museai.com",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "voice.museai.com",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "museai.com",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 1,
+          "value": "64.239.109.1",
+          "ttl_seconds": 1800
+        },
+        {
+          "type": 1,
+          "value": "64.239.109.193",
+          "ttl_seconds": 1800
+        }
+      ]
+    },
+    {
+      "name": "museai.com",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 1,
+          "value": "64.239.123.1",
+          "ttl_seconds": 1800
+        },
+        {
+          "type": 1,
+          "value": "64.239.109.65",
+          "ttl_seconds": 1800
+        }
+      ]
+    },
+    {
+      "name": "museai.com",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "museai.com",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "hatch.club",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 1,
+          "value": "64.239.109.1",
+          "ttl_seconds": 300
+        }
+      ]
+    },
+    {
+      "name": "hatch.club",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 1,
+          "value": "64.239.109.1",
+          "ttl_seconds": 300
+        }
+      ]
+    },
+    {
+      "name": "hatch.club",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "hatch.club",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "www.hatch.club",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 1,
+          "value": "76.223.54.146",
+          "ttl_seconds": 3600
+        },
+        {
+          "type": 1,
+          "value": "13.248.169.48",
+          "ttl_seconds": 3600
+        }
+      ]
+    },
+    {
+      "name": "www.hatch.club",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 1,
+          "value": "76.223.54.146",
+          "ttl_seconds": 3600
+        },
+        {
+          "type": 1,
+          "value": "13.248.169.48",
+          "ttl_seconds": 3600
+        }
+      ]
+    },
+    {
+      "name": "www.hatch.club",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "www.hatch.club",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "hatch.ecto1.ai",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 1,
+          "value": "64.239.123.1",
+          "ttl_seconds": 1800
+        },
+        {
+          "type": 1,
+          "value": "64.239.109.1",
+          "ttl_seconds": 1800
+        }
+      ]
+    },
+    {
+      "name": "hatch.ecto1.ai",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 1,
+          "value": "64.239.109.129",
+          "ttl_seconds": 1800
+        },
+        {
+          "type": 1,
+          "value": "64.239.123.65",
+          "ttl_seconds": 1800
+        }
+      ]
+    },
+    {
+      "name": "hatch.ecto1.ai",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "hatch.ecto1.ai",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "ecto1.ai",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 1,
+          "value": "64.239.123.129",
+          "ttl_seconds": 1800
+        },
+        {
+          "type": 1,
+          "value": "64.239.109.129",
+          "ttl_seconds": 1800
+        }
+      ]
+    },
+    {
+      "name": "ecto1.ai",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 1,
+          "value": "64.239.123.129",
+          "ttl_seconds": 1800
+        },
+        {
+          "type": 1,
+          "value": "64.239.109.129",
+          "ttl_seconds": 1800
+        }
+      ]
+    },
+    {
+      "name": "ecto1.ai",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "ecto1.ai",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "meta-ohttp-config-prod.fastly-edge.com",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 1,
+          "value": "151.101.193.91",
+          "ttl_seconds": 49
+        },
+        {
+          "type": 1,
+          "value": "151.101.1.91",
+          "ttl_seconds": 49
+        },
+        {
+          "type": 1,
+          "value": "151.101.65.91",
+          "ttl_seconds": 49
+        },
+        {
+          "type": 1,
+          "value": "151.101.129.91",
+          "ttl_seconds": 49
+        }
+      ]
+    },
+    {
+      "name": "meta-ohttp-config-prod.fastly-edge.com",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 1,
+          "value": "151.101.1.91",
+          "ttl_seconds": 58
+        },
+        {
+          "type": 1,
+          "value": "151.101.65.91",
+          "ttl_seconds": 58
+        },
+        {
+          "type": 1,
+          "value": "151.101.129.91",
+          "ttl_seconds": 58
+        },
+        {
+          "type": 1,
+          "value": "151.101.193.91",
+          "ttl_seconds": 58
+        }
+      ]
+    },
+    {
+      "name": "meta-ohttp-config-prod.fastly-edge.com",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 28,
+          "value": "2a04:4e42:600::347",
+          "ttl_seconds": 60
+        },
+        {
+          "type": 28,
+          "value": "2a04:4e42::347",
+          "ttl_seconds": 60
+        },
+        {
+          "type": 28,
+          "value": "2a04:4e42:200::347",
+          "ttl_seconds": 60
+        },
+        {
+          "type": 28,
+          "value": "2a04:4e42:400::347",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "meta-ohttp-config-prod.fastly-edge.com",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 28,
+          "value": "2a04:4e42::347",
+          "ttl_seconds": 60
+        },
+        {
+          "type": 28,
+          "value": "2a04:4e42:200::347",
+          "ttl_seconds": 60
+        },
+        {
+          "type": 28,
+          "value": "2a04:4e42:400::347",
+          "ttl_seconds": 60
+        },
+        {
+          "type": 28,
+          "value": "2a04:4e42:600::347",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "meta-ohttp-relay-prod.fastly-edge.com",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 1,
+          "value": "151.101.193.91",
+          "ttl_seconds": 28
+        },
+        {
+          "type": 1,
+          "value": "151.101.1.91",
+          "ttl_seconds": 28
+        },
+        {
+          "type": 1,
+          "value": "151.101.65.91",
+          "ttl_seconds": 28
+        },
+        {
+          "type": 1,
+          "value": "151.101.129.91",
+          "ttl_seconds": 28
+        }
+      ]
+    },
+    {
+      "name": "meta-ohttp-relay-prod.fastly-edge.com",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 1,
+          "value": "151.101.1.91",
+          "ttl_seconds": 54
+        },
+        {
+          "type": 1,
+          "value": "151.101.65.91",
+          "ttl_seconds": 54
+        },
+        {
+          "type": 1,
+          "value": "151.101.129.91",
+          "ttl_seconds": 54
+        },
+        {
+          "type": 1,
+          "value": "151.101.193.91",
+          "ttl_seconds": 54
+        }
+      ]
+    },
+    {
+      "name": "meta-ohttp-relay-prod.fastly-edge.com",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 28,
+          "value": "2a04:4e42:200::347",
+          "ttl_seconds": 9
+        },
+        {
+          "type": 28,
+          "value": "2a04:4e42:600::347",
+          "ttl_seconds": 9
+        },
+        {
+          "type": 28,
+          "value": "2a04:4e42:400::347",
+          "ttl_seconds": 9
+        },
+        {
+          "type": 28,
+          "value": "2a04:4e42::347",
+          "ttl_seconds": 9
+        }
+      ]
+    },
+    {
+      "name": "meta-ohttp-relay-prod.fastly-edge.com",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 28,
+          "value": "2a04:4e42::347",
+          "ttl_seconds": 42
+        },
+        {
+          "type": 28,
+          "value": "2a04:4e42:200::347",
+          "ttl_seconds": 42
+        },
+        {
+          "type": 28,
+          "value": "2a04:4e42:400::347",
+          "ttl_seconds": 42
+        },
+        {
+          "type": 28,
+          "value": "2a04:4e42:600::347",
+          "ttl_seconds": 42
+        }
+      ]
+    },
+    {
+      "name": "auth.meta.com",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star.c10r.facebook.com.",
+          "ttl_seconds": 6665
+        },
+        {
+          "type": 1,
+          "value": "157.240.211.1",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "auth.meta.com",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star.c10r.facebook.com.",
+          "ttl_seconds": 6492
+        },
+        {
+          "type": 1,
+          "value": "57.145.12.141",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "auth.meta.com",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star.c10r.facebook.com.",
+          "ttl_seconds": 6276
+        },
+        {
+          "type": 28,
+          "value": "2a03:2880:f05e:100:face:b00c:0:2",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "auth.meta.com",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star.c10r.facebook.com.",
+          "ttl_seconds": 5923
+        },
+        {
+          "type": 28,
+          "value": "2a03:2880:f31a:8d:face:b00c:0:2",
+          "ttl_seconds": 20
+        }
+      ]
+    },
+    {
+      "name": "static.xx.fbcdn.net",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "scontent.xx.fbcdn.net.",
+          "ttl_seconds": 3600
+        },
+        {
+          "type": 1,
+          "value": "157.240.211.13",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "static.xx.fbcdn.net",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "scontent.xx.fbcdn.net.",
+          "ttl_seconds": 3558
+        },
+        {
+          "type": 1,
+          "value": "57.144.98.128",
+          "ttl_seconds": 18
+        }
+      ]
+    },
+    {
+      "name": "static.xx.fbcdn.net",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "scontent.xx.fbcdn.net.",
+          "ttl_seconds": 3600
+        },
+        {
+          "type": 28,
+          "value": "2a03:2880:f05e:10c:face:b00c:0:3",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "static.xx.fbcdn.net",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "scontent.xx.fbcdn.net.",
+          "ttl_seconds": 3539
+        },
+        {
+          "type": 28,
+          "value": "2a03:2880:f386:80:face:b00c:0:3",
+          "ttl_seconds": 59
+        }
+      ]
+    },
+    {
+      "name": "connect.facebook.net",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "scontent.xx.fbcdn.net.",
+          "ttl_seconds": 2990
+        },
+        {
+          "type": 1,
+          "value": "157.240.211.13",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "connect.facebook.net",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "scontent.xx.fbcdn.net.",
+          "ttl_seconds": 3541
+        },
+        {
+          "type": 1,
+          "value": "57.145.12.128",
+          "ttl_seconds": 1
+        }
+      ]
+    },
+    {
+      "name": "connect.facebook.net",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "scontent.xx.fbcdn.net.",
+          "ttl_seconds": 3147
+        },
+        {
+          "type": 28,
+          "value": "2a03:2880:f05e:10c:face:b00c:0:3",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "connect.facebook.net",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "scontent.xx.fbcdn.net.",
+          "ttl_seconds": 3586
+        },
+        {
+          "type": 28,
+          "value": "2a03:2880:f31a:80:face:b00c:0:3",
+          "ttl_seconds": 46
+        }
+      ]
+    },
+    {
+      "name": "js.stripe.com",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "stripecdn.map.fastly.net.",
+          "ttl_seconds": 30
+        },
+        {
+          "type": 1,
+          "value": "151.101.192.176",
+          "ttl_seconds": 47
+        },
+        {
+          "type": 1,
+          "value": "151.101.64.176",
+          "ttl_seconds": 47
+        },
+        {
+          "type": 1,
+          "value": "151.101.128.176",
+          "ttl_seconds": 47
+        },
+        {
+          "type": 1,
+          "value": "151.101.0.176",
+          "ttl_seconds": 47
+        }
+      ]
+    },
+    {
+      "name": "js.stripe.com",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "dexeqbeb7giwr.cloudfront.net.",
+          "ttl_seconds": 19
+        },
+        {
+          "type": 1,
+          "value": "13.226.69.71",
+          "ttl_seconds": 49
+        },
+        {
+          "type": 1,
+          "value": "13.226.69.9",
+          "ttl_seconds": 49
+        },
+        {
+          "type": 1,
+          "value": "13.226.69.5",
+          "ttl_seconds": 49
+        },
+        {
+          "type": 1,
+          "value": "13.226.69.66",
+          "ttl_seconds": 49
+        }
+      ]
+    },
+    {
+      "name": "js.stripe.com",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "stripecdn.map.fastly.net.",
+          "ttl_seconds": 30
+        }
+      ]
+    },
+    {
+      "name": "js.stripe.com",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "stripecdn.map.fastly.net.",
+          "ttl_seconds": 28
+        }
+      ]
+    },
+    {
+      "name": "api.stripe.com",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 1,
+          "value": "198.202.176.21",
+          "ttl_seconds": 30
+        },
+        {
+          "type": 1,
+          "value": "198.137.150.21",
+          "ttl_seconds": 30
+        }
+      ]
+    },
+    {
+      "name": "api.stripe.com",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 1,
+          "value": "198.202.176.175",
+          "ttl_seconds": 10
+        },
+        {
+          "type": 1,
+          "value": "198.137.150.175",
+          "ttl_seconds": 10
+        }
+      ]
+    },
+    {
+      "name": "api.stripe.com",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "api.stripe.com",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "hooks.stripe.com",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 1,
+          "value": "198.202.176.111",
+          "ttl_seconds": 30
+        },
+        {
+          "type": 1,
+          "value": "198.137.150.111",
+          "ttl_seconds": 30
+        }
+      ]
+    },
+    {
+      "name": "hooks.stripe.com",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 1,
+          "value": "198.202.176.161",
+          "ttl_seconds": 30
+        },
+        {
+          "type": 1,
+          "value": "198.137.150.161",
+          "ttl_seconds": 30
+        }
+      ]
+    },
+    {
+      "name": "hooks.stripe.com",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "hooks.stripe.com",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "m.stripe.network",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "prod-m-tree.stripe.network.",
+          "ttl_seconds": 60
+        },
+        {
+          "type": 5,
+          "value": "d1tcqh4bio8cty.cloudfront.net.",
+          "ttl_seconds": 30
+        },
+        {
+          "type": 1,
+          "value": "18.65.14.117",
+          "ttl_seconds": 60
+        },
+        {
+          "type": 1,
+          "value": "18.65.14.17",
+          "ttl_seconds": 60
+        },
+        {
+          "type": 1,
+          "value": "18.65.14.124",
+          "ttl_seconds": 60
+        },
+        {
+          "type": 1,
+          "value": "18.65.14.23",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "m.stripe.network",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "prod-m-tree.stripe.network.",
+          "ttl_seconds": 45
+        },
+        {
+          "type": 5,
+          "value": "d1tcqh4bio8cty.cloudfront.net.",
+          "ttl_seconds": 15
+        },
+        {
+          "type": 1,
+          "value": "13.33.183.41",
+          "ttl_seconds": 45
+        },
+        {
+          "type": 1,
+          "value": "13.33.183.59",
+          "ttl_seconds": 45
+        },
+        {
+          "type": 1,
+          "value": "13.33.183.20",
+          "ttl_seconds": 45
+        },
+        {
+          "type": 1,
+          "value": "13.33.183.37",
+          "ttl_seconds": 45
+        }
+      ]
+    },
+    {
+      "name": "m.stripe.network",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "prod-m-tree.stripe.network.",
+          "ttl_seconds": 60
+        },
+        {
+          "type": 5,
+          "value": "d1tcqh4bio8cty.cloudfront.net.",
+          "ttl_seconds": 30
+        },
+        {
+          "type": 28,
+          "value": "2600:9000:2939:7e00:19:7d10:bd80:93a1",
+          "ttl_seconds": 60
+        },
+        {
+          "type": 28,
+          "value": "2600:9000:2939:4c00:19:7d10:bd80:93a1",
+          "ttl_seconds": 60
+        },
+        {
+          "type": 28,
+          "value": "2600:9000:2939:4e00:19:7d10:bd80:93a1",
+          "ttl_seconds": 60
+        },
+        {
+          "type": 28,
+          "value": "2600:9000:2939:f400:19:7d10:bd80:93a1",
+          "ttl_seconds": 60
+        },
+        {
+          "type": 28,
+          "value": "2600:9000:2939:e000:19:7d10:bd80:93a1",
+          "ttl_seconds": 60
+        },
+        {
+          "type": 28,
+          "value": "2600:9000:2939:8600:19:7d10:bd80:93a1",
+          "ttl_seconds": 60
+        },
+        {
+          "type": 28,
+          "value": "2600:9000:2939:ca00:19:7d10:bd80:93a1",
+          "ttl_seconds": 60
+        },
+        {
+          "type": 28,
+          "value": "2600:9000:2939:4400:19:7d10:bd80:93a1",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "m.stripe.network",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "prod-m-tree.stripe.network.",
+          "ttl_seconds": 16
+        },
+        {
+          "type": 5,
+          "value": "d1tcqh4bio8cty.cloudfront.net.",
+          "ttl_seconds": 16
+        },
+        {
+          "type": 28,
+          "value": "2600:9000:2079:c600:19:7d10:bd80:93a1",
+          "ttl_seconds": 46
+        },
+        {
+          "type": 28,
+          "value": "2600:9000:2079:f600:19:7d10:bd80:93a1",
+          "ttl_seconds": 46
+        },
+        {
+          "type": 28,
+          "value": "2600:9000:2079:2a00:19:7d10:bd80:93a1",
+          "ttl_seconds": 46
+        },
+        {
+          "type": 28,
+          "value": "2600:9000:2079:7000:19:7d10:bd80:93a1",
+          "ttl_seconds": 46
+        },
+        {
+          "type": 28,
+          "value": "2600:9000:2079:e600:19:7d10:bd80:93a1",
+          "ttl_seconds": 46
+        },
+        {
+          "type": 28,
+          "value": "2600:9000:2079:bc00:19:7d10:bd80:93a1",
+          "ttl_seconds": 46
+        },
+        {
+          "type": 28,
+          "value": "2600:9000:2079:3800:19:7d10:bd80:93a1",
+          "ttl_seconds": 46
+        },
+        {
+          "type": 28,
+          "value": "2600:9000:2079:6a00:19:7d10:bd80:93a1",
+          "ttl_seconds": 46
+        }
+      ]
+    },
+    {
+      "name": "link.com",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 1,
+          "value": "198.202.176.41",
+          "ttl_seconds": 30
+        },
+        {
+          "type": 1,
+          "value": "198.137.150.41",
+          "ttl_seconds": 30
+        }
+      ]
+    },
+    {
+      "name": "link.com",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 1,
+          "value": "198.202.176.231",
+          "ttl_seconds": 30
+        },
+        {
+          "type": 1,
+          "value": "198.137.150.231",
+          "ttl_seconds": 30
+        }
+      ]
+    },
+    {
+      "name": "link.com",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "link.com",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "o4509963614355457.ingest.us.sentry.io",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 1,
+          "value": "34.160.81.0",
+          "ttl_seconds": 20806
+        }
+      ]
+    },
+    {
+      "name": "o4509963614355457.ingest.us.sentry.io",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 1,
+          "value": "34.160.81.0",
+          "ttl_seconds": 14034
+        }
+      ]
+    },
+    {
+      "name": "o4509963614355457.ingest.us.sentry.io",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 28,
+          "value": "2600:1901:0:5e8a::",
+          "ttl_seconds": 21600
+        }
+      ]
+    },
+    {
+      "name": "o4509963614355457.ingest.us.sentry.io",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 28,
+          "value": "2600:1901:0:5e8a::",
+          "ttl_seconds": 13672
+        }
+      ]
+    },
+    {
+      "name": "cdn.whatsapp.net",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "cdn.whatsapp.net",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "cdn.whatsapp.net",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "cdn.whatsapp.net",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "cdninstagram.com",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "cdninstagram.com",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "cdninstagram.com",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "cdninstagram.com",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "fb.okta.com",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "ok7-crtrs.tng.okta.com.",
+          "ttl_seconds": 300
+        },
+        {
+          "type": 5,
+          "value": "ok7-crtrs.oktaedge.okta.com.",
+          "ttl_seconds": 300
+        },
+        {
+          "type": 5,
+          "value": "a71a8df23b4ece90e.awsglobalaccelerator.com.",
+          "ttl_seconds": 230
+        },
+        {
+          "type": 1,
+          "value": "35.71.178.224",
+          "ttl_seconds": 230
+        },
+        {
+          "type": 1,
+          "value": "52.223.45.111",
+          "ttl_seconds": 230
+        }
+      ]
+    },
+    {
+      "name": "fb.okta.com",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "ok7-crtrs.tng.okta.com.",
+          "ttl_seconds": 300
+        },
+        {
+          "type": 5,
+          "value": "ok7-crtrs.oktaedge.okta.com.",
+          "ttl_seconds": 300
+        },
+        {
+          "type": 5,
+          "value": "a71a8df23b4ece90e.awsglobalaccelerator.com.",
+          "ttl_seconds": 300
+        },
+        {
+          "type": 1,
+          "value": "35.71.178.224",
+          "ttl_seconds": 300
+        },
+        {
+          "type": 1,
+          "value": "52.223.45.111",
+          "ttl_seconds": 300
+        }
+      ]
+    },
+    {
+      "name": "fb.okta.com",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "ok7-crtrs.tng.okta.com.",
+          "ttl_seconds": 300
+        },
+        {
+          "type": 5,
+          "value": "ok7-crtrs.oktaedge.okta.com.",
+          "ttl_seconds": 300
+        },
+        {
+          "type": 5,
+          "value": "a71a8df23b4ece90e.awsglobalaccelerator.com.",
+          "ttl_seconds": 300
+        }
+      ]
+    },
+    {
+      "name": "fb.okta.com",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "ok7-crtrs.tng.okta.com.",
+          "ttl_seconds": 300
+        },
+        {
+          "type": 5,
+          "value": "ok7-crtrs.oktaedge.okta.com.",
+          "ttl_seconds": 300
+        },
+        {
+          "type": 5,
+          "value": "a71a8df23b4ece90e.awsglobalaccelerator.com.",
+          "ttl_seconds": 300
+        }
+      ]
+    },
+    {
+      "name": "fbcdn.net",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 1,
+          "value": "157.240.211.35",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "fbcdn.net",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 1,
+          "value": "57.144.98.1",
+          "ttl_seconds": 28
+        }
+      ]
+    },
+    {
+      "name": "fbcdn.net",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 28,
+          "value": "2a03:2880:f15e:182:face:b00c:0:25de",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "fbcdn.net",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 28,
+          "value": "2a03:2880:f386:1:face:b00c:0:25de",
+          "ttl_seconds": 8
+        }
+      ]
+    },
+    {
+      "name": "fbsbx.com",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 1,
+          "value": "157.240.211.35",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "fbsbx.com",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 1,
+          "value": "57.144.64.1",
+          "ttl_seconds": 55
+        }
+      ]
+    },
+    {
+      "name": "fbsbx.com",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 28,
+          "value": "2a03:2880:f15e:182:face:b00c:0:25de",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "fbsbx.com",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 28,
+          "value": "2a03:2880:f328:1:face:b00c:0:25de",
+          "ttl_seconds": 10
+        }
+      ]
+    },
+    {
+      "name": "fonts.googleapis.com",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 1,
+          "value": "203.208.49.97",
+          "ttl_seconds": 300
+        }
+      ]
+    },
+    {
+      "name": "fonts.googleapis.com",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 1,
+          "value": "108.177.97.95",
+          "ttl_seconds": 273
+        }
+      ]
+    },
+    {
+      "name": "fonts.googleapis.com",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 28,
+          "value": "2401:3800:4001:808::1001",
+          "ttl_seconds": 300
+        }
+      ]
+    },
+    {
+      "name": "fonts.googleapis.com",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 28,
+          "value": "2404:6800:4008:c06::5f",
+          "ttl_seconds": 62
+        }
+      ]
+    },
+    {
+      "name": "fonts.gstatic.com",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 1,
+          "value": "203.208.49.98",
+          "ttl_seconds": 300
+        },
+        {
+          "type": 1,
+          "value": "203.208.49.98",
+          "ttl_seconds": 300
+        }
+      ]
+    },
+    {
+      "name": "fonts.gstatic.com",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 1,
+          "value": "142.251.179.94",
+          "ttl_seconds": 105
+        }
+      ]
+    },
+    {
+      "name": "fonts.gstatic.com",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 28,
+          "value": "2401:3800:4001:808::1002",
+          "ttl_seconds": 300
+        }
+      ]
+    },
+    {
+      "name": "fonts.gstatic.com",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 28,
+          "value": "2404:6800:4005:805::2003",
+          "ttl_seconds": 200
+        }
+      ]
+    },
+    {
+      "name": "oculuscdn.com",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "oculuscdn.com",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "oculuscdn.com",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "oculuscdn.com",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "va.vercel-scripts.com",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 1,
+          "value": "64.239.109.129",
+          "ttl_seconds": 1260
+        },
+        {
+          "type": 1,
+          "value": "64.239.123.129",
+          "ttl_seconds": 1260
+        }
+      ]
+    },
+    {
+      "name": "va.vercel-scripts.com",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 1,
+          "value": "64.239.109.129",
+          "ttl_seconds": 751
+        },
+        {
+          "type": 1,
+          "value": "64.239.123.65",
+          "ttl_seconds": 751
+        }
+      ]
+    },
+    {
+      "name": "va.vercel-scripts.com",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "va.vercel-scripts.com",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": []
+    },
+    {
+      "name": "web.facebook.com",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star.c10r.facebook.com.",
+          "ttl_seconds": 2127
+        },
+        {
+          "type": 1,
+          "value": "157.240.211.1",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "web.facebook.com",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star.c10r.facebook.com.",
+          "ttl_seconds": 3554
+        },
+        {
+          "type": 1,
+          "value": "57.144.64.141",
+          "ttl_seconds": 14
+        }
+      ]
+    },
+    {
+      "name": "web.facebook.com",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star.c10r.facebook.com.",
+          "ttl_seconds": 3076
+        },
+        {
+          "type": 28,
+          "value": "2a03:2880:f05e:100:face:b00c:0:2",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "web.facebook.com",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star.c10r.facebook.com.",
+          "ttl_seconds": 3566
+        },
+        {
+          "type": 28,
+          "value": "2a03:2880:f05e:100:face:b00c:0:2",
+          "ttl_seconds": 26
+        }
+      ]
+    },
+    {
+      "name": "www.instagram.com",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "z-p42-instagram.c10r.instagram.com.",
+          "ttl_seconds": 3075
+        },
+        {
+          "type": 1,
+          "value": "157.240.211.174",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "www.instagram.com",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "z-p42-instagram.c10r.instagram.com.",
+          "ttl_seconds": 3557
+        },
+        {
+          "type": 1,
+          "value": "57.144.64.34",
+          "ttl_seconds": 17
+        }
+      ]
+    },
+    {
+      "name": "www.instagram.com",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "z-p42-instagram.c10r.instagram.com.",
+          "ttl_seconds": 1988
+        },
+        {
+          "type": 28,
+          "value": "2a03:2880:f25e:1e4:face:b00c:0:4420",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "www.instagram.com",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "z-p42-instagram.c10r.instagram.com.",
+          "ttl_seconds": 3492
+        },
+        {
+          "type": 28,
+          "value": "2a03:2880:f386:22:face:b00c:0:4420",
+          "ttl_seconds": 13
+        }
+      ]
+    },
+    {
+      "name": "www.meta.com",
+      "type": "A",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star.c10r.facebook.com.",
+          "ttl_seconds": 7083
+        },
+        {
+          "type": 1,
+          "value": "157.240.211.1",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "www.meta.com",
+      "type": "A",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star.c10r.facebook.com.",
+          "ttl_seconds": 6986
+        },
+        {
+          "type": 1,
+          "value": "157.240.211.1",
+          "ttl_seconds": 43
+        }
+      ]
+    },
+    {
+      "name": "www.meta.com",
+      "type": "AAAA",
+      "resolver": "google",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star.c10r.facebook.com.",
+          "ttl_seconds": 6794
+        },
+        {
+          "type": 28,
+          "value": "2a03:2880:f05e:100:face:b00c:0:2",
+          "ttl_seconds": 60
+        }
+      ]
+    },
+    {
+      "name": "www.meta.com",
+      "type": "AAAA",
+      "resolver": "cloudflare",
+      "dns_status": 0,
+      "answers": [
+        {
+          "type": 5,
+          "value": "star.c10r.facebook.com.",
+          "ttl_seconds": 6023
+        },
+        {
+          "type": 28,
+          "value": "2a03:2880:f31a:8d:face:b00c:0:2",
+          "ttl_seconds": 25
+        }
+      ]
+    }
+  ]
+}
