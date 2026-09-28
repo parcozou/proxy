@@ -10,6 +10,7 @@ DOMAIN-SUFFIX,meta.ai
 # Suffix rules cover the apex and all current/future subdomains, including
 # auth.muse.ai, api.muse.ai, introducing.muse.ai and security.muse.ai.
 DOMAIN-SUFFIX,muse.ai
+DOMAIN-SUFFIX,metaaivm.com
 
 # Related origins in Muse's shipped origin configuration; some require staff SSO.
 # Covers production.museai.com, voice.museai.com and hatch.ecto1.ai.
