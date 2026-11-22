@@ -24,19 +24,22 @@ DOMAIN-SUFFIX,claudepages.dev
 DOMAIN-SUFFIX,claudestudio.com
 
 # CDN 和静态资源
-DOMAIN,servd-anthropic-website.b-cdn.net
-DOMAIN,anthropic.com.cdn.cloudflare.net
+DOMAIN-SUFFIX,servd-anthropic-website.b-cdn.net
+DOMAIN-SUFFIX,anthropic.com.cdn.cloudflare.net
 
 # 认证 / 内容
-DOMAIN,anthropic.auth0.com
-DOMAIN,anthropic-com.ghost.io
+DOMAIN-SUFFIX,anthropic.auth0.com
+DOMAIN-SUFFIX,anthropic-com.ghost.io
 DOMAIN-SUFFIX,r.stripe.com
 DOMAIN-SUFFIX,fcmtoken.googleapis.com
 
 # 监控和遥测
 DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,us.sentry.io
 DOMAIN-SUFFIX,statsigapi.net
-DOMAIN,browser-intake-us5-datadoghq.com
+DOMAIN-SUFFIX,us5.datadoghq.com
+DOMAIN-SUFFIX,browser-intake-us5-datadoghq.com
+DOMAIN-SUFFIX,siftscience.com
 DOMAIN-KEYWORD,datadog
 DOMAIN-KEYWORD,sift
 
@@ -45,7 +48,7 @@ DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN-SUFFIX,intercomassets.com
 DOMAIN-SUFFIX,intercom-messenger.com
-DOMAIN,cdn.usefathom.com
+DOMAIN-SUFFIX,cdn.usefathom.com
 
 # 人机验证 / KYC
 DOMAIN-SUFFIX,hcaptcha.com
